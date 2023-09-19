@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="Back-end\main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature mision</title>
+</head>
+<body>
+    <h2>¡Bienvenido al Juego!</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        
+        <button type="submit" name="iniciar">Iniciar Partida</button>
+        <button type="button" name="verReglas" onclick="mostrarReglas()">Ver Reglas</button>
+    </form>
+
+    <div id="reglas" style="display: none;">
+        <h3>Reglas del Juego</h3>
+        <p>Aquí puedes agregar las reglas del juego.</p>
+    </div>
+    
+</body>
+</html>
