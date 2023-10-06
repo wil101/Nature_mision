@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.regresar-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.regresar-link:hover {
+    text-decoration: underline;
+}
